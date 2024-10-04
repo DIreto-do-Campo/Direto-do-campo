@@ -16,6 +16,7 @@ module.exports = {
 				cinereous: '#93867F',
 				blackOlive: '#343633',
 				amethyst: '#7D70BA',
+				areia: '#FDB44E',
 				mauve: '#DEC1FF',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
