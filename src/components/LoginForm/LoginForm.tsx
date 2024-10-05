@@ -2,7 +2,7 @@ import { FaUser, FaEnvelope, FaLock } from 'react-icons/fa';
 
 const LoginForm = () => {
   return (
-    <div className="max-w-[1440px] flex flex-col items-center justify-center min-h-screen w-full bg-gray-100">
+    <div className=" flex flex-col items-center justify-center min-h-screen w-full bg-gray-100">
       <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold text-center mb-6 text-black">Vem com a gente, produtor!</h2>
 
