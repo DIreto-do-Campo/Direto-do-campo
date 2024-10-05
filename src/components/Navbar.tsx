@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="flex items-center space-x-6 ">
         {/* Ícone de usuário */}
         <div className="bg-white rounded-full w-10">
-          <a href="/profile" className="relative flex items-center">
+          <a href="/login" className="relative flex items-center">
             <UserCircleIcon className="h-6 w-6 text-hunterGreen ml-[3px]" /> {/* Ícone de usuário */}
             <ChevronDownIcon className="h-6 w-6 text-hunterGreen ml-1" />
           </a>
