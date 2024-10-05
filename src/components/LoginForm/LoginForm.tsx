@@ -4,7 +4,7 @@ const LoginForm = () => {
   return (
     <div className="flex items-center justify-center w-full h-full min-h-screen bg-gray-100">
       <div className="w-full max-w-md bg-white p-6 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold text-center mb-6">Vem com a gente, produtor!</h2>
+        <h2 className="text-2xl font-bold text-center mb-6 text-black">Vem com a gente, produtor!</h2>
         
         {/* Nome completo */}
         <div className="mb-4">
