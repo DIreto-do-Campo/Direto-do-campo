@@ -4,7 +4,7 @@ import { ChevronDownIcon } from '@heroicons/react/24/solid';
 
 const Navbar = () => {
   return (
-    <nav className="bg-hunterGreen h-16 text-white px-6 py-4 flex justify-between items-center rounded-t-[19px]">
+    <nav className="bg-hunterGreen h-16 text-white px-6 py-4 flex justify-between items-center">
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <img src="/public/LOGO.png" alt="Logo" className="h-10" />

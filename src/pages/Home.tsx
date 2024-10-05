@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const Home = () => {
     return (
-        <div className="max-w-[1440px] mx-auto bg-cinereous/20 rounded-[19px] min-h-screen flex flex-col">
+        <div className="mx-auto bg-cinereous/20 rounded-[19px] min-h-screen flex flex-col">
             <Navbar />
 
             {/* Banner com imagens */}
