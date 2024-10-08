@@ -16,8 +16,8 @@ Para rodar o projeto, você precisará ter as seguintes ferramentas instaladas:
    Baixe os arquivos do projeto:
 
    ```bash
-   git clone https://github.com/usuario/projeto-react-vite-leaflet-shadcn.git
-   cd projeto-react-vite-leaflet-shadcn
+   git clone [https://github.com/usuario/projeto-react-vite-leaflet-shadcn.git
+   cd projeto-react-vite-leaflet-shadcn](https://github.com/DIreto-do-Campo/Direto-do-campo/tree/main)
    ```
 
 2. **Instale as dependências**
