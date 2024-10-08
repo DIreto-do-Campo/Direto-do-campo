@@ -1,6 +1,16 @@
-# Projeto React com Vite, Leaflet e Shadcn
+# Projeto React com Vite, Leaflet, Shadcn e Tailwind CSS
 
-Este projeto é um site desenvolvido em React utilizando Vite, Leaflet para mapas, Shadcn para estilização de componentes e Tailwind CSS para customização do layout.
+Este projeto é um MVP (Minimum Viable Product) desenvolvido em React utilizando Vite, Leaflet para mapas, Shadcn para estilização de componentes e Tailwind CSS para customização do layout.
+
+## Estrutura do MVP
+
+Este MVP contém 5 páginas principais:
+
+1. **Home**: Página principal com informações sobre o projeto e uma lista dos itens disponíveis para venda.
+2. **Mapa**: Página que permite explorar um mapa interativo com a localização dos produtores que fazem parte do projeto.
+3. **Junte-se ao Projeto**: Página destinada a produtores interessados em se juntar ao projeto, funcionando como uma chamada para novos participantes.
+4. **Login**: Página de criação de contas e login para que os usuários possam acessar suas contas.
+5. **Carrinho**: Página para gerenciar o carrinho de compras, permitindo que os usuários vejam e ajustem os itens selecionados antes da finalização da compra.
 
 ## Requisitos
 
