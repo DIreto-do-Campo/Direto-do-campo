@@ -4,10 +4,10 @@ import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
 
 export default function ProductGrid() {
   const products = [
-    { id: 1, image: "/public/verduras.jpg", title: "Cesta de legumes", subtitle: "(semanal)", price: "R$ 50,00", },
-    { id: 2, image: "/public/verduras.jpg", title: "Cesta de legumes", subtitle: "(semanal)", price: "R$ 50,00" },
-    { id: 3, image: "/public/verduras.jpg", title: "Cesta de legumes", subtitle: "(semanal)", price: "R$ 50,00" },
-    { id: 4, image: "/public/verduras.jpg", title: "Cesta de legumes", subtitle: "(semanal)", price: "R$ 50,00" },
+    { id: 1, image: "/verduras.jpg", title: "Cesta de legumes", subtitle: "(semanal)", price: "R$ 50,00", },
+    { id: 2, image: "/verduras.jpg", title: "Cesta de legumes", subtitle: "(semanal)", price: "R$ 50,00" },
+    { id: 3, image: "/verduras.jpg", title: "Cesta de legumes", subtitle: "(semanal)", price: "R$ 50,00" },
+    { id: 4, image: "/verduras.jpg", title: "Cesta de legumes", subtitle: "(semanal)", price: "R$ 50,00" },
   ];
 
   return (

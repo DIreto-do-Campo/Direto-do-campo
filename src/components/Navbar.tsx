@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserCircleIcon, ShoppingCartIcon, MapIcon } from '@heroicons/react/24/outline';
+import { UserCircleIcon, ShoppingCartIcon, MapIcon, InformationCircleIcon } from '@heroicons/react/24/outline';
 import { ChevronDownIcon } from '@heroicons/react/24/solid';
 
 const Navbar = () => {
@@ -13,11 +13,18 @@ const Navbar = () => {
       </a>
 
       {/* Navegação */}
+      
       <div className="flex space-x-8">
-        <a href="/explore" className=" text-white">
+      <a href="/explore" className=" text-white">
           <span className="flex items-center">
             <MapIcon className="h-5 w-5 mr-1" /> {/* Ícone de mapa */}
             Explore
+          </span>
+        </a>
+        <a href="/sobreoprojeto" className=" text-white">
+          <span className="flex items-center">
+            <InformationCircleIcon className="h-5 w-5 mr-1" /> {/* Ícone de mapa */}
+            Sobre o Projeto
           </span>
         </a>
         <a href="/Farm" className="text-white">

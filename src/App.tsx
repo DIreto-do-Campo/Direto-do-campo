@@ -9,6 +9,7 @@ import VemComAGente from './pages/VemComAGente';
 import NotFound from './pages/NotFound';
 import Cart from './pages/Cart';
 import Map from './pages/Map';
+import About from './pages/About'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/VemComAGente" element={<VemComAGente />} />
         <Route path="/explore" element={<Map />} />
         <Route path='/Cart' element={<Cart />} />
+        <Route path='/About' element={<About />} />
         {/* Página de erro 404 */}
         <Route path="*" element={<NotFound />} />
       </Routes>
