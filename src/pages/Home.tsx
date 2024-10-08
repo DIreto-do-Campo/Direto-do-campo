@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const Home = () => {
     return (
-        <div className="mx-auto bg-cinereous/20 rounded-[19px] min-h-screen flex flex-col">
+        <div className="max-w-[1440px] mx-auto bg-cinereous/20 rounded-[19px] min-h-screen flex flex-col">
             <Navbar />
 
             {/* Banner com imagens */}
@@ -13,14 +13,14 @@ const Home = () => {
                 <div className="w-1/2">
                     <img
                         className="w-full h-[300px] object-cover"
-                        src="/public/AgriculturaFam.jpg"
+                        src="/AgriculturaFam.jpg"
                         alt="Agricultura Familiar"
                     />
                 </div>
                 <div className="w-1/2">
                     <img
                         className="w-full h-[300px] object-cover"
-                        src="/public/queijo artesanal.jpeg"
+                        src="/queijo artesanal.jpeg"
                         alt="Agricultura Familiar"
                     />
                 </div>
@@ -48,7 +48,7 @@ const Home = () => {
             <div className="bg-amethyst relative text-white container mx-auto rounded-[15px] py-8 mt-4 w-[90%] px-4">
                
                 <div className="flex items-center">
-                    <img src="/public/dolarcoin.png" alt="Ícone Dólar" className="w-6 h-auto" />
+                    <img src="/dolarcoin.png" alt="Ícone Dólar" className="w-6 h-auto" />
                     <h2 className="text-lg mx-2">Juntos Pela Agricultura Familiar</h2>
                 </div>
 
@@ -62,7 +62,7 @@ const Home = () => {
                 <div className="w-1/2">
                     <img
                         className="w-full h-[300px] object-cover rounded-l-[15px]"
-                        src="/public/agricultora.png"
+                        src="/agricultora.png"
                         alt="Agricultura Familiar"
                     />
                 </div>
