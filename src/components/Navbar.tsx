@@ -21,7 +21,7 @@ const Navbar = () => {
             Explore
           </span>
         </a>
-        <a href="/sobreoprojeto" className=" text-white">
+        <a href="/About" className=" text-white">
           <span className="flex items-center">
             <InformationCircleIcon className="h-5 w-5 mr-1" /> {/* Ícone de mapa */}
             Sobre o Projeto
