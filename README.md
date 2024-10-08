@@ -1,6 +1,6 @@
 # Projeto React com Vite, Leaflet e Shadcn
 
-Este projeto é um site desenvolvido em React utilizando Vite, Leaflet para mapas e Shadcn para estilização de componentes e Tailwind CSS para customização do layout.
+Este projeto é um site desenvolvido em React utilizando Vite, Leaflet para mapas, Shadcn para estilização de componentes e Tailwind CSS para customização do layout.
 
 ## Requisitos
 
