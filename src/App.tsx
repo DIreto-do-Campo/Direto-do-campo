@@ -7,8 +7,8 @@ import Login from './pages/Login';
 import Farm from './pages/Farm';
 import VemComAGente from './pages/VemComAGente';
 import NotFound from './pages/NotFound';
-import Cart from './pages/cart';
-
+import Cart from './pages/Cart';
+import Map from './pages/Map';
 
 function App() {
   return (
@@ -18,8 +18,10 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/Farm" element={<Farm />} />
         <Route path="/VemComAGente" element={<VemComAGente />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/explore" element={<Map />} />
         <Route path='/Cart' element={<Cart />} />
+        {/* Página de erro 404 */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
