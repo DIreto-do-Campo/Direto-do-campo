@@ -23,9 +23,11 @@ No diretório do projeto, instale as dependências com o seguinte comando:
 
 ```bash
 npm install
+```
 
 3. **Rodar o servidor de desenvolvimento**
 Inicie o servidor de desenvolvimento Vite com o seguinte comando:
 
 ```bash
 npm run dev
+```
