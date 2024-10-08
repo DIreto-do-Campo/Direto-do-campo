@@ -1,0 +1,7 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { UserCircleIcon, ShoppingCartIcon, MapIcon } from '@heroicons/react/24/outline';
+import { ChevronDownIcon } from '@heroicons/react/24/solid';
+const Navbar = () => {
+    return (_jsxs("nav", { className: "bg-hunterGreen h-16 text-white px-6 py-4 flex justify-between items-center rounded-t-[19px]", children: [_jsx("a", { href: "/", children: _jsx("div", { className: "flex items-center space-x-2", children: _jsx("img", { src: "/LOGO.png", alt: "Logo", className: "h-10" }) }) }), _jsxs("div", { className: "flex space-x-8", children: [_jsx("a", { href: "/explore", className: " text-white", children: _jsxs("span", { className: "flex items-center", children: [_jsx(MapIcon, { className: "h-5 w-5 mr-1" }), " ", "Explore"] }) }), _jsx("a", { href: "/Farm", className: "text-white", children: "Venda com a gente" })] }), _jsxs("div", { className: "flex items-center space-x-6 ", children: [_jsx("div", { className: "bg-white rounded-full w-10", children: _jsxs("a", { href: "/Login", className: "relative flex items-center", children: [_jsx(UserCircleIcon, { className: "h-6 w-6 text-hunterGreen ml-[3px]" }), " ", _jsx(ChevronDownIcon, { className: "h-6 w-6 text-hunterGreen ml-1" })] }) }), _jsxs("a", { href: "/cart", className: "relative", children: [_jsx(ShoppingCartIcon, { className: "h-6 w-6 text-white" }), " "] })] })] }));
+};
+export default Navbar;

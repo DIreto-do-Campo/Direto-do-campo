@@ -29,7 +29,7 @@ const Map = () => {
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />
                     {farmers.map((farmer, index) => (
-                        <Marker key={index} position={farmer.geocode}>
+                        <Marker key={index} position={[farmer.geocode[0], farmer.geocode[1]]}>
                             <Popup>
                                 {farmer.texto}
                             </Popup>

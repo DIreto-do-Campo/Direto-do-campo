@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Footer = () => {
+    return (_jsxs("footer", { className: "bg-green-900 text-white p-6 mt-6 rounded-b-[15px] relative", children: [_jsxs("div", { className: "flex items-center justify-between w-[80%] mx-auto my-4", children: [_jsx("div", { className: "h-[2px] bg-white w-full" }), _jsx("img", { src: "/LOGO.png", alt: "Logo", className: "h-12 ml-4" })] }), _jsxs("div", { className: "container mx-auto gap-10 flex justify-start w-[80%]", children: [_jsxs("div", { children: [_jsx("h3", { className: "font-bold", children: "COMPRE" }), _jsx("p", { children: "Compre de produtores locais" }), _jsx("p", { children: "Suporte ao cliente" })] }), _jsxs("div", { children: [_jsx("h3", { className: "font-bold", children: "VENDA" }), _jsx("p", { children: "Comece a vender agora" }), _jsx("p", { children: "Junte-se a n\u00F3s" })] }), _jsxs("div", { children: [_jsx("h3", { className: "font-bold", children: "SOBRE N\u00D3S" }), _jsx("p", { children: "Compre de produtores locais" }), _jsx("p", { children: "Suporte ao cliente" })] })] })] }));
+};
+export default Footer;
