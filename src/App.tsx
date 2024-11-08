@@ -11,21 +11,26 @@ import Cart from './pages/Cart';
 import Map from './pages/Map';
 import About from './pages/About'
 
+
+
 function App() {
+  
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Farm" element={<Farm />} />
-        <Route path="/VemComAGente" element={<VemComAGente />} />
-        <Route path="/explore" element={<Map />} />
-        <Route path='/Cart' element={<Cart />} />
-        <Route path='/About' element={<About />} />
-        {/* Página de erro 404 */}
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Router>
+    
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Farm" element={<Farm />} />
+          <Route path="/VemComAGente" element={<VemComAGente />} />
+          <Route path="/explore" element={<Map />} />
+          <Route path='/Cart' element={<Cart />} />
+          <Route path='/About' element={<About />} />
+          {/* Página de erro 404 */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Router>
+    
   );
 }
 

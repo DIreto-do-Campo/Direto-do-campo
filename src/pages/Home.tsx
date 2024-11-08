@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
 import Navbar from '../components/Navbar';
 import ProductGrid from '../components/ProductGrid';
 import Footer from '../components/Footer';
+import { CarrinhoContext } from '../contexts/context';
+
+
 
 const Home = () => {
+    const GlobalState= useContext(CarrinhoContext)
+    console.log('ola mundo',GlobalState)
     return (
+
         <div className="max-w-[1440px] mx-auto bg-cinereous/20 rounded-[19px] min-h-screen flex flex-col">
             <Navbar />
 
@@ -41,18 +48,18 @@ const Home = () => {
             </div>
 
             {/* Grid de produtos */}
-            <div className="container mx-auto bg-white rounded-[15px] py-4 mt-12 flex justify-center w-[90%]">
+            <div className="container mx-auto bg-white rounded-[15px] py-4 mt-12 flex justify-center w-[90%] relative">
                 <ProductGrid />
+                
+                {/* Botão de seta para o carrinho */}
+                
             </div>
-
+            
             <div className="bg-amethyst relative text-white container mx-auto rounded-[15px] py-8 mt-4 w-[90%] px-4">
-               
                 <div className="flex items-center">
                     <img src="/dolarcoin.png" alt="Ícone Dólar" className="w-6 h-auto" />
                     <h2 className="text-lg mx-2">Juntos Pela Agricultura Familiar</h2>
                 </div>
-
-                
                 <p className="mt-4 text-justify text-sm">
                     Venda direto para o consumidor final, do seu jeito e no seu tempo. Nosso objetivo é ajudar pequenos agricultores a ter um negócio rentável e continuar alimentando nossa sociedade.
                 </p>
@@ -70,12 +77,12 @@ const Home = () => {
                     <span className='bg-white p-1 text-sm rounded-sm font-medium text-hunterGreen'>Top Farm</span>
                     <h2 className='my-4 text-lg font-semibold'>Materia sobre nossos fornecedores</h2>
                     <p>Contando a historia de vida de uma das nossas agricultoras</p>
-                    
                 </div>
-                </div>
+            </div>
 
-                <Footer/>
+            <Footer />
         </div>
+
     );
 };
 
